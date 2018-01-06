@@ -34,6 +34,8 @@ class BillingInfoViewController: UIViewController {
   
   private let cardType: Variable<CardType> = Variable(.Unknown)
   
+  private let disposeBag = DisposeBag()
+  
   //MARK: - View Lifecycle
   
   override func viewDidLoad() {
